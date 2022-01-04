@@ -1,0 +1,12 @@
+---
+# mount_ebpf/tasks/main.yml
+
+    - name: 'Make sure bpf is mounted'
+      mount:
+        path: '/sys/fs/bpf'
+        src: 'bpffs'
+        fstype: 'bpf'
+        opts: 'defaults'
+        dump: '0'
+        passno: '0'
+        state: 'mounted'
