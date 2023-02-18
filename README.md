@@ -1,3 +1,5 @@
+![Ansible Lint](https://github.com/johanneskastl/ansible-role-mount_ebpf/workflows/Ansible%20Lint/badge.svg)
+
 mount_ebpf
 =========
 
