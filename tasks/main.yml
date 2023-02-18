@@ -2,7 +2,7 @@
 # mount_ebpf/tasks/main.yml
 
 - name: 'Make sure bpf is mounted'
-  mount:
+  ansible.posix.mount:
     path: '/sys/fs/bpf'
     src: 'bpffs'
     fstype: 'bpf'
