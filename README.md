@@ -25,7 +25,7 @@ Example Playbook
 
     - hosts: servers
       roles:
-        - { role: 'johanneskastl.mount_ebpf' }
+        - role: 'johanneskastl.mount_ebpf'
 
 License
 -------
